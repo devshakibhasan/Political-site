@@ -1,0 +1,11 @@
+.logo {
+    color: #F00A64;
+    font-weight: 700;
+    font-size: 2em;
+}
+.pl-menu > ul li a {
+    color: #F00A64;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

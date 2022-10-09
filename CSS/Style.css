@@ -382,7 +382,7 @@ body {
   border: 3px solid #F00A64;
 }
 
-@media (max-width: 967px) {
+@media (max-width: 1000px) {
   .pl-cards {
     margin-bottom: 7em;
 
@@ -390,6 +390,28 @@ body {
 
 }
 
+.see-more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+.see-more-btn button{
+  padding: .4em 1em .4em 1em;
+  font-size: 1.3em;
+  border: 3px solid #000;
+  font-weight: 500;
+}
+.see-more-btn button:hover{
+  color: #F00A64;
+  border: 3px solid #F00A64;
+}
+@media  (min-width: 1000px) and (max-width: 1230px) {
+  .see-more-btn {
+    margin-top: 10em;
+  }
+
+}
 /*-------------Blogs------------------*/
 #news-slider {
   margin-top: 80px;

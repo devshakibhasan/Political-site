@@ -66,7 +66,7 @@
 	   
 	    nav:true,
 	    dots: true,
-	    autoplayHoverPause: true,
+	    autoplayHoverPause: false,
 		items : 2,
 		smartSpeed: 200,
 	    // navText : ["<p><small>Prev</small><span class='ion-ios-arrow-round-back'></span></p>","<p><small>Next</small><span class='ion-ios-arrow-round-forward'></span></p>"],
@@ -84,10 +84,10 @@
 			},
 
 			1366: {
-				items: 2
+				items: 3
 			},
 			1566: {
-				items: 2
+				items: 3
 			}
 		}
 		});

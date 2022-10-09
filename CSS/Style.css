@@ -433,7 +433,7 @@ body {
   top: 0;
   left: 0;
   opacity: 0;
-  background: linear-gradient(-45deg, rgb(181, 18, 77) 0%, rgba(174, 194, 236, 0.6) 100%);
+  background: linear-gradient(-35deg, rgb(218, 48, 111) 0%, rgba(174, 194, 236, 0.6) 100%);
   transition: all 0.50s linear;
   color: #ee0b62;
 }

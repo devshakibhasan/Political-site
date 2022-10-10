@@ -130,6 +130,31 @@ body {
   font-size: 2em;
 }
 
+.pl-rd-mr {
+  display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .pl-menu {
   color: #F00A64;
   padding-top: 1em;
@@ -560,6 +585,10 @@ body {
   }
 
 } */
+
+
+
+
 /*-------------Blogs------------------*/
 .Blogs {
   padding-bottom: 10em;
@@ -762,10 +791,113 @@ body {
 
 } */
 
+/* --------------Grid image------------------------- */
+.pl-img-gl {
+  background-color: #faf3f5;
+ 
+}
+.pl-img-gl h3{
+  padding: 2em 0em 2em 0em;
+ 
+}
 
 
+/* ------------Social Links-------------------- */
+.social-links {
+  padding-bottom: 5em;
 
 
+}
 
+.social-links h2 {
+  padding: 2em 0em 1em 0em;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: 600;
+}
 
+.buttons {
+  margin: 2em 0em 2em 0em;
+  display: flex;
+}
 
+.buttons h3 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1em;
+}
+
+.buttons a {
+  margin-right: 30px;
+  width: 64px;
+  height: 64px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  line-height: 64px;
+  background-color: #eaeaea;
+  background-image: linear-gradient(to bottom, #f6f6f6, #eaeaea);
+  border-radius: 32px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.buttons a:active {
+  top: 1px;
+  background-image: linear-gradient(to bottom, #eaeaea, #f6f6f6);
+}
+
+.buttons a:active::before {
+  top: -9px;
+}
+
+.buttons a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  background-color: #eaeaea;
+  border-radius: 140px;
+  opacity: 0.5;
+}
+
+:hover .buttons a::before {
+  opacity: 1;
+}
+
+.facebook {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.twitter {}
+
+.youtube {}
+
+.twitch {}
+
+.twitter:hover::before {
+  background-color: #c6f0f8;
+}
+
+.facebook:hover::before {
+  background-color: #dae1f0;
+}
+
+.youtube:hover::before {
+  background-color: #fadae6;
+}
+
+.twitch:hover::before {
+  background-color: #f8ebb6;
+}

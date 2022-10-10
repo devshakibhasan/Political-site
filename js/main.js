@@ -167,6 +167,7 @@ $(document).ready(function(){
 function translate(tnum){
   $('.pl-caro-hd1').text(trans[0][tnum]);
   $('.pl-caro-tx1').text(trans[1][tnum]);
+  $('.pl-rd-mr').text(trans[2][tnum]);
 
 }
 
@@ -186,5 +187,9 @@ var trans = [
     fr : 'Je suis un défenseur intransigeant du climat, des droits humains et de la justice sociale. Je veux une Europe où la prospérité appartient à tous, pas à quelques-uns. Je travaille pour cela en tant que député européen de l Alliance de gauche. Avant de devenir députée, j ai travaillé comme députée et conseillère municipale à Helsinki.',
     cn : '我是气候、人权和社会正义的坚定捍卫者。 我想要一个繁荣属于每个人而不是少数人的欧洲。 我作为左翼联盟的 MEP 为之工作。 在担任议会议员之前，我曾在赫尔辛基担任议员和市议员。',
   },
-
-];
+  { 
+	fi: 'Lue lisää',
+    en : 'Read more',
+    pt : 'consulte Mais informação',
+    fr : 'Lire la suite',
+    cn : '阅读更�

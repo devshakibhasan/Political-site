@@ -1204,3 +1204,7 @@ color: #FA035B;
 font-size: 14px;
 color: #878787;
 }
+.form-label {
+  font-size: 14px;
+  color: #878787 !important;
+}

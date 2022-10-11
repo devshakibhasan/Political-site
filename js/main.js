@@ -23,7 +23,7 @@
 			dots: true,
 			autoplayHoverPause: false,
 			items: 1,
-			navText: ["<p><small>Prev</small><span class='ion-ios-arrow-round-back'></span></p>", "<p><small>Next</small><span class='ion-ios-arrow-round-forward'></span></p>"],
+			// navText: ["<p><small>Prev</small><span class='ion-ios-arrow-round-back'></span></p>", "<p><small>Next</small><span class='ion-ios-arrow-round-forward'></span></p>"],
 			responsive: {
 				0: {
 					items: 1

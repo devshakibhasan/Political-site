@@ -502,6 +502,18 @@ body {
 @media only screen  and (max-width:767px) {
   .work-wrap .text {
     background: #fbe4f0;
+    height: 45em;
+    
+  }
+  .work-wrap .pl-img {
+  
+    height: 20em;
+    
+  }
+}
+@media only screen  and (max-width:370px) {
+  .work-wrap .text {
+    background: #fbe4f0;
     height: 50em;
     
   }
